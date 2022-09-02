@@ -1,8 +1,8 @@
 import './App.css';
 import TodoList from './TodoList';
-import './STORE';
+import {todos} from './STORE';
 
-function App({todos}) {
+function App() {
   
   return (
     <TodoList items ={todos}/>
@@ -10,4 +10,3 @@ function App({todos}) {
 }
 
 export default App;
-
