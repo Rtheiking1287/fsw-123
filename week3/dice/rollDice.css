@@ -1,0 +1,35 @@
+/* Dice */
+.RollDice{ 
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.RollDice-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Button Styles */
+.RollDice button{
+    width:10em;
+    padding:1.5em;
+    border: 0px;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(24, 54, 249);
+    margin-top: 3em;
+    align-self: center;
+}
+
+/* Button effects */
+.RollDice button:hover{
+    cursor: pointer;
+}
+
+.RollDice-rolling{
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(89, 168, 247) !important;
+    opacity:0.7
+}
